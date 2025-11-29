@@ -11,7 +11,11 @@ export default function App(){
 
   async function handleQuery(q){
     try{
-      const res = await axios.get('http://localhost:8000/api/analyze/', { params: { q } });
+    const res = await axios.get(
+  'https://realestate-chatbot-backend-fxkj.onrender.com/api/analyze/',
+  { params: { q } }
+);
+
       setSummary(res.data.summary);
       setChartData(res.data.chart);
       setRows(res.data.rows);
