@@ -1,4 +1,4 @@
-# SigmaValue — Mini Real Estate Analysis Chatbot (Option 2)
+# SigmaValue — Mini Real Estate Analysis Chatbot 
 
 This package contains a **React** frontend and a **Django + DRF** backend that:
 - Accepts a query (e.g., "Analyze Wakad")
